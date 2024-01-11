@@ -1,8 +1,10 @@
-package com.example.dotline;
+package project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.dotline.R;
 
 public class MainActivity extends AppCompatActivity {
 
