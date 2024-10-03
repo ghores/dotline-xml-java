@@ -25,8 +25,8 @@ public class GameView extends View {
     private Paint linePaint;
     private int cols = 4;
     private int rows = 4;
-    private int offsetY = 100;
-    private int offsetX = 100;
+    private int offsetY;
+    private int offsetX;
     private int space = 150;
     private int radius = 15;
 
