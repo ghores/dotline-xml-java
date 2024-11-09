@@ -91,7 +91,6 @@ public class GameView extends View {
         initialize();
     }
 
-
     private void initialize() {
         dotPaint = new Paint();
         dotPaint.setColor(Color.WHITE);
@@ -133,8 +132,7 @@ public class GameView extends View {
 
         canvas.drawColor(Color.parseColor("#222222"));
 
-        for (Line line :
-                lines) {
+        for (Line line : lines) {
             connect(canvas, line);
         }
         for (int i = 0; i < cols; i++) {
